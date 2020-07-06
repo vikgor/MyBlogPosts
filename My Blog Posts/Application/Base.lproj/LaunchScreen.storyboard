@@ -16,17 +16,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My blog posts (Obj-C text app)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHc-jY-sN5">
-                                <rect key="frame" x="88.5" y="437.5" width="237.5" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHc-jY-sN5">
+                                <rect key="frame" x="20" y="412" width="374" height="72"/>
+                                <string key="text">Blog posts from 
+viktorgordienko.com
+(Objective-C test app)</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="mHc-jY-sN5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="68B-HO-hJG"/>
                             <constraint firstItem="mHc-jY-sN5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="AK5-xb-Qd4"/>
                             <constraint firstItem="mHc-jY-sN5" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="nsj-1W-lrc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mHc-jY-sN5" secondAttribute="trailing" constant="20" id="rUY-me-RWL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
