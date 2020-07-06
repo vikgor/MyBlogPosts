@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  My Blog Posts
 //
 //  Created by Viktor Gordienko on 7/3/20.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : UIViewController
 
 @end
 

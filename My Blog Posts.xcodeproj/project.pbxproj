@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		053DCD8524AF6E4700E82C0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 053DCD8424AF6E4700E82C0D /* AppDelegate.m */; };
 		053DCD8824AF6E4700E82C0D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 053DCD8724AF6E4700E82C0D /* SceneDelegate.m */; };
-		053DCD8B24AF6E4700E82C0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 053DCD8A24AF6E4700E82C0D /* ViewController.m */; };
+		053DCD8B24AF6E4700E82C0D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 053DCD8A24AF6E4700E82C0D /* MainViewController.m */; };
 		053DCD8E24AF6E4700E82C0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053DCD8C24AF6E4700E82C0D /* Main.storyboard */; };
 		053DCD9024AF6E4B00E82C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053DCD8F24AF6E4B00E82C0D /* Assets.xcassets */; };
 		053DCD9324AF6E4B00E82C0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053DCD9124AF6E4B00E82C0D /* LaunchScreen.storyboard */; };
 		053DCD9624AF6E4B00E82C0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 053DCD9524AF6E4B00E82C0D /* main.m */; };
+		05A493CE24B36E5D00B3B78D /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A493CC24B36E5D00B3B78D /* PageViewController.m */; };
+		05A493D124B36EB800B3B78D /* Page.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A493D024B36EB800B3B78D /* Page.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +24,16 @@
 		053DCD8424AF6E4700E82C0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		053DCD8624AF6E4700E82C0D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		053DCD8724AF6E4700E82C0D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		053DCD8924AF6E4700E82C0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		053DCD8A24AF6E4700E82C0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		053DCD8924AF6E4700E82C0D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		053DCD8A24AF6E4700E82C0D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		053DCD8D24AF6E4700E82C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		053DCD8F24AF6E4B00E82C0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		053DCD9224AF6E4B00E82C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		053DCD9424AF6E4B00E82C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		053DCD9524AF6E4B00E82C0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05A493CB24B36E5D00B3B78D /* PageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		05A493CC24B36E5D00B3B78D /* PageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		05A493D024B36EB800B3B78D /* Page.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Page.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +66,62 @@
 		053DCD8224AF6E4700E82C0D /* My Blog Posts */ = {
 			isa = PBXGroup;
 			children = (
+				05A493CA24B36E2500B3B78D /* Modules */,
+				053DCD9C24AF769D00E82C0D /* Application */,
+			);
+			path = "My Blog Posts";
+			sourceTree = "<group>";
+		};
+		053DCD9C24AF769D00E82C0D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				053DCD9D24AF77D400E82C0D /* Delegate */,
+				053DCD8F24AF6E4B00E82C0D /* Assets.xcassets */,
+				053DCD9124AF6E4B00E82C0D /* LaunchScreen.storyboard */,
+				053DCD9424AF6E4B00E82C0D /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		053DCD9D24AF77D400E82C0D /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				053DCD9524AF6E4B00E82C0D /* main.m */,
 				053DCD8324AF6E4700E82C0D /* AppDelegate.h */,
 				053DCD8424AF6E4700E82C0D /* AppDelegate.m */,
 				053DCD8624AF6E4700E82C0D /* SceneDelegate.h */,
 				053DCD8724AF6E4700E82C0D /* SceneDelegate.m */,
-				053DCD8924AF6E4700E82C0D /* ViewController.h */,
-				053DCD8A24AF6E4700E82C0D /* ViewController.m */,
-				053DCD8C24AF6E4700E82C0D /* Main.storyboard */,
-				053DCD8F24AF6E4B00E82C0D /* Assets.xcassets */,
-				053DCD9124AF6E4B00E82C0D /* LaunchScreen.storyboard */,
-				053DCD9424AF6E4B00E82C0D /* Info.plist */,
-				053DCD9524AF6E4B00E82C0D /* main.m */,
 			);
-			path = "My Blog Posts";
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		05A493C824B36DFD00B3B78D /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				05A493CB24B36E5D00B3B78D /* PageViewController.h */,
+				05A493CC24B36E5D00B3B78D /* PageViewController.m */,
+				05A493D024B36EB800B3B78D /* Page.storyboard */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		05A493C924B36E1E00B3B78D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				053DCD8924AF6E4700E82C0D /* MainViewController.h */,
+				053DCD8A24AF6E4700E82C0D /* MainViewController.m */,
+				053DCD8C24AF6E4700E82C0D /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		05A493CA24B36E2500B3B78D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				05A493C924B36E1E00B3B78D /* Main */,
+				05A493C824B36DFD00B3B78D /* Page */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +184,7 @@
 				053DCD9324AF6E4B00E82C0D /* LaunchScreen.storyboard in Resources */,
 				053DCD9024AF6E4B00E82C0D /* Assets.xcassets in Resources */,
 				053DCD8E24AF6E4700E82C0D /* Main.storyboard in Resources */,
+				05A493D124B36EB800B3B78D /* Page.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +195,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				053DCD8B24AF6E4700E82C0D /* ViewController.m in Sources */,
+				053DCD8B24AF6E4700E82C0D /* MainViewController.m in Sources */,
 				053DCD8524AF6E4700E82C0D /* AppDelegate.m in Sources */,
 				053DCD9624AF6E4B00E82C0D /* main.m in Sources */,
+				05A493CE24B36E5D00B3B78D /* PageViewController.m in Sources */,
 				053DCD8824AF6E4700E82C0D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,14 +341,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J349HN2J4J;
-				INFOPLIST_FILE = "My Blog Posts/Info.plist";
+				INFOPLIST_FILE = "My Blog Posts/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.viktorgordienko.My-Blog-Posts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,14 +359,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J349HN2J4J;
-				INFOPLIST_FILE = "My Blog Posts/Info.plist";
+				INFOPLIST_FILE = "My Blog Posts/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.viktorgordienko.My-Blog-Posts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
