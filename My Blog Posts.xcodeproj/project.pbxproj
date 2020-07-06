@@ -14,6 +14,9 @@
 		053DCD9024AF6E4B00E82C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053DCD8F24AF6E4B00E82C0D /* Assets.xcassets */; };
 		053DCD9324AF6E4B00E82C0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053DCD9124AF6E4B00E82C0D /* LaunchScreen.storyboard */; };
 		053DCD9624AF6E4B00E82C0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 053DCD9524AF6E4B00E82C0D /* main.m */; };
+		054E1D6D24B3A9520088DAF2 /* myFirstObjCApp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 054E1D6A24B3A9520088DAF2 /* myFirstObjCApp1.png */; };
+		054E1D6E24B3A9520088DAF2 /* myFirstObjCApp2.png in Resources */ = {isa = PBXBuildFile; fileRef = 054E1D6B24B3A9520088DAF2 /* myFirstObjCApp2.png */; };
+		054E1D6F24B3A9520088DAF2 /* myFirstObjCApp3.png in Resources */ = {isa = PBXBuildFile; fileRef = 054E1D6C24B3A9520088DAF2 /* myFirstObjCApp3.png */; };
 		05A493CE24B36E5D00B3B78D /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A493CC24B36E5D00B3B78D /* PageViewController.m */; };
 		05A493D124B36EB800B3B78D /* Page.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A493D024B36EB800B3B78D /* Page.storyboard */; };
 /* End PBXBuildFile section */
@@ -31,6 +34,10 @@
 		053DCD9224AF6E4B00E82C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		053DCD9424AF6E4B00E82C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		053DCD9524AF6E4B00E82C0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		054E1D6124B3A8970088DAF2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		054E1D6A24B3A9520088DAF2 /* myFirstObjCApp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myFirstObjCApp1.png; sourceTree = "<group>"; };
+		054E1D6B24B3A9520088DAF2 /* myFirstObjCApp2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myFirstObjCApp2.png; sourceTree = "<group>"; };
+		054E1D6C24B3A9520088DAF2 /* myFirstObjCApp3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myFirstObjCApp3.png; sourceTree = "<group>"; };
 		05A493CB24B36E5D00B3B78D /* PageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
 		05A493CC24B36E5D00B3B78D /* PageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
 		05A493D024B36EB800B3B78D /* Page.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Page.storyboard; sourceTree = "<group>"; };
@@ -50,6 +57,8 @@
 		053DCD7724AF6E4700E82C0D = {
 			isa = PBXGroup;
 			children = (
+				054E1D6924B3A9520088DAF2 /* screenshots */,
+				054E1D6124B3A8970088DAF2 /* README.md */,
 				053DCD8224AF6E4700E82C0D /* My Blog Posts */,
 				053DCD8124AF6E4700E82C0D /* Products */,
 			);
@@ -93,6 +102,16 @@
 				053DCD8724AF6E4700E82C0D /* SceneDelegate.m */,
 			);
 			path = Delegate;
+			sourceTree = "<group>";
+		};
+		054E1D6924B3A9520088DAF2 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				054E1D6A24B3A9520088DAF2 /* myFirstObjCApp1.png */,
+				054E1D6B24B3A9520088DAF2 /* myFirstObjCApp2.png */,
+				054E1D6C24B3A9520088DAF2 /* myFirstObjCApp3.png */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 		05A493C824B36DFD00B3B78D /* Page */ = {
@@ -182,6 +201,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				053DCD9324AF6E4B00E82C0D /* LaunchScreen.storyboard in Resources */,
+				054E1D6F24B3A9520088DAF2 /* myFirstObjCApp3.png in Resources */,
+				054E1D6E24B3A9520088DAF2 /* myFirstObjCApp2.png in Resources */,
+				054E1D6D24B3A9520088DAF2 /* myFirstObjCApp1.png in Resources */,
 				053DCD9024AF6E4B00E82C0D /* Assets.xcassets in Resources */,
 				053DCD8E24AF6E4700E82C0D /* Main.storyboard in Resources */,
 				05A493D124B36EB800B3B78D /* Page.storyboard in Resources */,
