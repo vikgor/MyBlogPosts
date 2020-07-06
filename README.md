@@ -1,7 +1,7 @@
 # My Blog Posts
 
 My first try on Objective-C. 
-A list of posts from my blog & more detailed blog post viewer.  
+A list of posts from my [blog](https://viktorgordienko.com) & more detailed blog post viewer.  
 
 Task:
 Basic Objective-C app with UITableView & URL request
